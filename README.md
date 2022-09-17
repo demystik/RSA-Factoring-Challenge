@@ -11,16 +11,17 @@ please any contribution towards making this project works for bignums will be hi
 ## Tasks :page_with_curl:
 
 * ** 0. Factorize all the things!**
-"""
+```
 Factorize as many numbers as possible into a product of two smaller numbers.
 
 	Usage: factors <file>
 		where <file> is a file containing natural numbers to factor.
-	Output format: `n=p*q`
+	Output format: n=p*q
 		one factorization per line
-		`p` and `q` don’t have to be prime numbers
-
-	`julien@ubuntu:~/factors$ cat tests/test00`
+		p and q don’t have to be prime numbers
+```
+```
+	julien@ubuntu:~/factors$ cat tests/test00
 	4
 	12
 	34
@@ -35,7 +36,8 @@ Factorize as many numbers as possible into a product of two smaller numbers.
 	9797973
 	49
 	239809320265259
-	`julien@ubuntu:~/factors$ time ./factors tests/test00`
+```
+	julien@ubuntu:~/factors$ time ./factors tests/test00
 	4=2*2
 	12=6*2
 	34=17*2
@@ -53,9 +55,8 @@ Factorize as many numbers as possible into a product of two smaller numbers.
 
 	real    0m0.009s
 	user    0m0.008s
-	sys 0m0.001s`
-"""
-
+	sys 0m0.001s
+```
 * ** 1. RSA Factoring Challenge**
 """
 	RSA Laboratories states that: for each RSA number n, there exist prime numbers p and q such that
