@@ -20,7 +20,7 @@ Factorize as many numbers as possible into a product of two smaller numbers.
 		one factorization per line
 		`p` and `q` don’t have to be prime numbers
 
-	`julien@ubuntu:~/factors$ cat tests/test00 
+	`julien@ubuntu:~/factors$ cat tests/test00`
 	4
 	12
 	34
@@ -35,7 +35,7 @@ Factorize as many numbers as possible into a product of two smaller numbers.
 	9797973
 	49
 	239809320265259
-	julien@ubuntu:~/factors$ time ./factors tests/test00
+	`julien@ubuntu:~/factors$ time ./factors tests/test00`
 	4=2*2
 	12=6*2
 	34=17*2
