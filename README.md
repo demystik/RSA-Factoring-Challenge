@@ -1,9 +1,9 @@
 # RSA-Factoring-Challenge
 
-### Author :man_tecnologist:
-Thaoban Abdrasheed
+### Author :man_technologist:
+Thaoban Abdrasheed :nerd_face:
 
-# Acknowledgement :pray:
+## Acknowledgement :pray:
 This project is designed to factorize as many numbers as possible into a product of two smaller numbers.
 It works perfectly for that except the case of bignums (numbers bigger than long long unsigned integers)
 please any contribution towards making this project works for bignums will be highly appreciated..
@@ -20,7 +20,7 @@ Factorize as many numbers as possible into a product of two smaller numbers.
 		one factorization per line
 		`p` and `q` don’t have to be prime numbers
 
-	julien@ubuntu:~/factors$ cat tests/test00 
+	`julien@ubuntu:~/factors$ cat tests/test00 
 	4
 	12
 	34
@@ -53,7 +53,7 @@ Factorize as many numbers as possible into a product of two smaller numbers.
 
 	real    0m0.009s
 	user    0m0.008s
-	sys 0m0.001s
+	sys 0m0.001s`
 """
 
 * ** 1. RSA Factoring Challenge**
